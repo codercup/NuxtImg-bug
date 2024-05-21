@@ -4,4 +4,7 @@ export default defineNuxtConfig({
   // https://nuxt.com/docs/api/nuxt-config#srcdir
   srcDir: 'src/',
   modules: ['@nuxt/ui', '@vueuse/nuxt', '@nuxt/image'],
+  devServer: {
+    port: 3333,
+  },
 })
